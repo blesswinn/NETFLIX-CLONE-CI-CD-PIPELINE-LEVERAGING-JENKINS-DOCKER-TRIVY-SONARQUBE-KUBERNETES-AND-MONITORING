@@ -1,58 +1,128 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## NETFLIX CLONE CI/CD PIPELINE: LEVERAGING JENKINS, DOCKER, TRIVY, SONARQUBE, KUBERNETES, AND MONITORING
+
+The "Netflix Clone CI/CD Pipeline" project aims to develop and implement an advanced continuous integration and continuous deployment (CI/CD) pipeline for a Netflix-like streaming application. 
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Leveraging a suite of cutting-edge technologies including Jenkins, Docker, Trivy, SonarQube, Kubernetes, and monitoring solutions, the project seeks to streamline the software development and deployment processes. By automating build, test, and deployment tasks, the CI/CD pipeline accelerates the delivery of new features and updates to the Netflix clone application, enhancing its agility and responsiveness. Furthermore, integration of security scanning tools like Trivy and code quality inspection with SonarQube ensures the application's security and stability. Kubernetes facilitates efficient container orchestration, enabling seamless scaling and management of the application across diverse environments. Monitoring solutions provide real-time visibility into application performance and health, enabling proactive issue detection and resolution. Overall, the project aims to deliver a robust and reliable streaming experience for users while empowering developers with efficient and agile software delivery practices.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+Automated CI/CD Pipeline: Implement a fully automated continuous integration and continuous deployment pipeline for the Netflix clone application.
+
+Jenkins Integration: Utilize Jenkins as the automation server to orchestrate the CI/CD pipeline, ensuring seamless execution of build, test, and deployment tasks.
+
+Docker Integration: Employ Docker for containerization, allowing for consistent packaging and deployment of the Netflix clone application across various environments.
+
+Trivy Security Scanning: Integrate Trivy to conduct automated security scans on Docker images, identifying and addressing vulnerabilities to enhance application security.
+
+SonarQube Code Quality Inspection: Utilize SonarQube for continuous code quality inspection, ensuring adherence to coding standards and identifying potential issues early in the development process.
+
+Kubernetes Orchestration: Leverage Kubernetes for container orchestration, enabling efficient scaling, management, and deployment of containerized applications.
+
+Monitoring Solutions: Integrate monitoring solutions to provide real-time visibility into application performance and health, enabling proactive issue detection and resolution.
+
+Scalability: Ensure scalability of the CI/CD pipeline and the Netflix clone application, enabling seamless handling of increased workloads and user demand.
+
+Reliability: Ensure reliability of the CI/CD pipeline and deployed applications, minimizing downtime and service disruptions to provide a consistent streaming experience.
+
+Security: Implement robust security measures throughout the CI/CD pipeline, including secure image scanning, code quality inspection, and adherence to best practices to mitigate security risks.
+
+Efficiency: Streamline the software delivery process with efficient automation, reducing manual effort and accelerating time-to-market for new features and updates.
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* Hardware Requirements:
+The system should be hosted on hardware with sufficient CPU, memory, and storage resources to support the deployment and execution of CI/CD pipelines and associated tools.
+* Software Requirements:
+The system should support operating systems compatible with the tools used in the CI/CD pipeline, such as Linux distributions for Docker and Kubernetes.
+Compatible versions of Jenkins, Docker, Trivy, SonarQube, Kubernetes, and monitoring solutions should be installed and configured on the system.
+* Network Requirements:
+The system should have access to the internet to download updates, dependencies, and container images from external repositories and registries.
+Proper network configuration should be in place to facilitate communication between different components of the CI/CD pipeline, including version control systems, build servers, and deployment targets.
+* Security Requirements:
+The system should adhere to security best practices to protect sensitive data and prevent unauthorized access.
+Access controls and permissions should be configured to restrict access to sensitive resources and functionalities within the CI/CD pipeline.
+Security measures such as encryption, authentication, and authorization should be implemented to safeguard communication and data integrity.
+* Compatibility Requirements:
+The system should be compatible with the tools and technologies used in the CI/CD pipeline, ensuring seamless integration and interoperability between different components.
+Compatibility with existing infrastructure and development environments should be considered to facilitate smooth adoption and integration of the CI/CD pipeline into the existing workflow.
+* Performance Requirements:
+The system should be capable of handling concurrent builds, tests, and deployments efficiently, without significant degradation in performance.
+Performance metrics such as build times, deployment speed, and resource utilization should meet acceptable thresholds to ensure timely delivery of updates and responsiveness of the application.
+* Reliability and Availability Requirements:
+The system should be highly reliable and available, with minimal downtime and service disruptions.
+Redundancy, failover mechanisms, and disaster recovery plans should be in place to ensure continuity of operations in the event of hardware or software failures.
+* Scalability Requirements:
+The system should be scalable to accommodate increasing workloads and user demand, with provisions for horizontal and vertical scaling of resources.
+Scalability should be achieved through efficient resource allocation, load balancing, and dynamic provisioning of infrastructure components.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![architecture diagram](https://github.com/blesswinn/NETFLIX-CLONE-CI-CD-PIPELINE-LEVERAGING-JENKINS-DOCKER-TRIVY-SONARQUBE-KUBERNETES-AND-MONITORING/assets/113033635/ad8bf2bc-1ff2-4514-ab98-1156e34f7882)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - MAIN PAGE OUTPUT
+![Screenshot 2023-11-16 012135](https://github.com/blesswinn/NETFLIX-CLONE-CI-CD-PIPELINE-LEVERAGING-JENKINS-DOCKER-TRIVY-SONARQUBE-KUBERNETES-AND-MONITORING/assets/113033635/71d0bf77-f80a-4acd-a15e-8a3853723e45)
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+#### Output2 - PIPELINE
+![Screenshot 2023-11-16 012153](https://github.com/blesswinn/NETFLIX-CLONE-CI-CD-PIPELINE-LEVERAGING-JENKINS-DOCKER-TRIVY-SONARQUBE-KUBERNETES-AND-MONITORING/assets/113033635/c834d0e2-2ef7-44cc-92d4-230c4360d8ad)
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+#### Output3 - PROMETHEUS OUTPUT
+![Screenshot 2023-11-16 012205](https://github.com/blesswinn/NETFLIX-CLONE-CI-CD-PIPELINE-LEVERAGING-JENKINS-DOCKER-TRIVY-SONARQUBE-KUBERNETES-AND-MONITORING/assets/113033635/0909e28d-a279-465e-bdea-da9b61bdeca4)
+
+#### Output4 - GRAFANA OUTPUT
+![Screenshot 2023-11-16 012244](https://github.com/blesswinn/NETFLIX-CLONE-CI-CD-PIPELINE-LEVERAGING-JENKINS-DOCKER-TRIVY-SONARQUBE-KUBERNETES-AND-MONITORING/assets/113033635/f136c017-0e21-4948-8c76-f20ffc71985c)
 
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+ Implementation of a robust CI/CD pipeline utilizing Jenkins, Docker, Trivy, SonarQube, Kubernetes, and monitoring solutions for efficient and secure delivery of updates to the Netflix clone application.
+ Streamlined development processes, enhanced security, scalability, and reliability, leading to faster time-to-market, improved code quality, and a seamless streaming experience for users.
 
 This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1]    Lwakatare L.E., Kuvaja P., Oivo M.
+An exploratory study of devops extending the dimensions of devops with practices
+ICSEA, 104 (2016), p. 2016
+
+[2]   Vonk R.
+ A Study into Critical Success Factors During the Adoption and       Implementation of Continuous Delivery and Continuous Deployment in a DevOps Context
+(Master’s thesis)
+Open University of the Netherlands (2020)
+
+[3]   SAUGATUK TECHNOLOGY, ―Why DevOps Matters: practical insight on  managing complex& continuous
+change‖ in Microsoft, October 2014 Pages 1-8.
+
+[4]   Shahin M., Babar M.A., Zahedi M., Zhu L. Beyond continuous delivery: an empirical investigation of continuous deployment challenges 2017 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement, ESEM, IEEE (2017), pp. 111-120
+
+[5]  Wettinger J., Breitenbücher U., Leymann F. Devopslang–bridging the gap between development and operations European Conference on Service-Oriented and Cloud Computing,  Springer (2014), pp. 108-122
+
+[6]  Humble J., Farley D.
+Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation
+Pearson Education (2010)
+
+[7]  Smeds J., Nybom K., Porres I.
+Devops: a definition and perceived adoption impediments
+International Conference on Agile Software Development, Springer (2015), pp. 166-177
+
+[8]  Cois C.A., Yankel J., Connell A.
+Modern devops: optimizing software development through effective system interactions
+2014 IEEE international professional communication conference, IPCC, IEEE (2014), pp. 1-7
+
+[9]  Arvind Devops lifecycle:everything you need to know about devops lifecycle phases (2022)
+
+[10]Chen B.
+Improving the software logging practices in devops
+2019 IEEE/ACM 41st International Conference on Software Engineering: Companion Proceedings, ICSE-Companion, IEEE (2019), pp. 194-197.
+
 
 
 
